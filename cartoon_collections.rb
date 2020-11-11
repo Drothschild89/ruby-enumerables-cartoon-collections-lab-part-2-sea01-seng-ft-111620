@@ -39,9 +39,9 @@ def find_valid_calls(planeteer_calls)
     while inner_count < valid_calls.length do 
       if valid_calls[inner_count] == planeteer_calls[count]
         return valid_calls[inner_count]
-        inner_count += 1 
       end
-      count += 1
+      inner_count += 1 
     end
+    count += 1
 end
 end
